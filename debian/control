@@ -1,0 +1,15 @@
+Source: lmd-manager
+Section: misc
+Priority: optional
+Maintainer: Equip LliureX <lliurex@gva.es>
+Uploaders: Luis Antonio Garcia Gisbert <garcia_luigis@gva.es>, Angel Berlanas Vicente <lliurex_devel2@edu.gva.es>, Javier Garcia Escribano <garcia_javesc@gva.es>, Raul Rodrigo Segura <lliurex_devel3@edu.gva.es>, Alfons Lloret Sananton <lliurex_devel5@edu.gva.es>, Enrique Medina Gremaldos <lliurex_devel4@edu.gva.es>, David Montalva Furio <dmontalf@gmail.com>, Hector Garcia Huerta <lliurex_devel1@edu.gva.es>, Jose Alfredo Murcia Andres <joamuran@gmail.com>, Jose Carlos Garcia <garcia_josmon@gva.es>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.9.3
+
+Package: lmd-manager
+Depends: ${misc:Depends}
+Architecture: all
+Description: LTSP Management for Dummies. Cli and Gui tools.
+ LMD gives support to Thin and Fat
+ Thin Clients Management. This package
+ offers GUI and CLI tools to manage LMD.
